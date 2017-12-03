@@ -1,21 +1,21 @@
 # Gradle
-.gradle
-build
+/.gradle
+/build
 
 # IntelliJ
-*.iml
-*.iws
-*.ipr
-.idea
+/*.iml
+/*.iws
+/*.ipr
+/.idea
 
 # Eclipse
-.settings
-.project
-.classpath
-bin
+/.settings
+/.project
+/.classpath
+/bin
 
 # Sublime
-*.sublime-workspace
+/*.sublime-workspace
 
 # Other
 *~
