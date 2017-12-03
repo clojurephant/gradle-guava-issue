@@ -1,11 +1,7 @@
 import gradle_clojure.build.*
 
-task guavaImport(type: Import) {
-
-}
-
 task guavaForName(type: ForName) {
 
 }
 
-task guava(dependsOn: [guavaImport, guavaForName])
+task guava(dependsOn: guavaForName)
